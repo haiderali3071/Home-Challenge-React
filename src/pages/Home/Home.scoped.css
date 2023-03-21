@@ -1,0 +1,54 @@
+.tab {
+    font-weight: 600;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.search-bar {
+    margin-top: 10px;
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid lightgrey;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dropdown {
+    width: 300px; 
+    border-radius: 5px;
+    height: 40px;
+}
+
+.date-input {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .tab {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .search-bar {
+        width: 270px
+    }
+}
