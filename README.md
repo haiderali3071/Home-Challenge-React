@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to RUN
 
-In the project directory, create .env:
+In the project directory, create .env file.
 
 #### .env
 
