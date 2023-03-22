@@ -44,25 +44,20 @@
   margin-top: 150px;
 }
 
-.tile{
-  border:1px solid #e3e3e3;
-  background-color:  #e3e3e3;
+.tile {
+  border: 1px solid #e3e3e3;
+  background-color: #e3e3e3;
   border-radius: 10px;
-  padding:30px;
+  padding: 30px;
   margin-bottom: 10px;
   cursor: pointer;
   font-weight: 700;
   font-size: 18px;
+  width: 800px;
 }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (max-width: 800px) {
   .tile {
-      width:800px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .tile{ 
-    width:100%;
+    width: 100%;
   }
 }
