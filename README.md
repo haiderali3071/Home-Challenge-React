@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, create .env:
 
-### .env
+#### .env
 
 ```ini
 REACT_APP_URL=http://localhost:82
